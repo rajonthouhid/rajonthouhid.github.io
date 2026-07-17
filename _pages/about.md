@@ -1,6 +1,8 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
+excerpt: "Personal academic and engineering portfolio of Thouhidul Islam Rajon"
+author_profile: true
 author_profile: true
 redirect_from: 
   - /about/
