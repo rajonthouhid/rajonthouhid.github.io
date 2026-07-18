@@ -23,7 +23,7 @@ repository               : "rajonthouhid/rajonthouhid.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "/images/profile.png"
   name             : "Thouhidul Islam Rajon"
   pronouns         : # example: "He/his"  
   bio              : "Mechanical Engineering Graduate Student | Research Assistant | Additive Manufacturing | CFD | Heat Transfer | Sustainable Engineering"
