@@ -151,6 +151,20 @@ I am seeking engineering opportunities and Ph.D. positions related to additive m
 
 ## Download My CV
 
-A downloadable PDF version of my CV will be added here.
+## Download My CV
+
+You can download the most recent version of my curriculum vitae below.
+
+<div style="margin-top:25px;">
+
+<a href="/files/Thouhidul_Islam_Rajon_CV.pdf"
+class="btn btn--primary btn--large"
+target="_blank">
+
+📄 Download CV (PDF)
+
+</a>
+
+</div>
 
 <!-- Later we will replace this with a working button. -->
