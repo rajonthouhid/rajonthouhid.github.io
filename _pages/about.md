@@ -417,7 +417,7 @@ redirect_from:
 
 Download CV
 
-</a></a>
+</a>
     </div>
   </section>
 
