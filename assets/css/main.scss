@@ -37,3 +37,254 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+/* ==================================================
+   Custom Website Styling
+   Thouhidul Islam Rajon
+   ================================================== */
+
+/* Main website background */
+
+body {
+  background-color: #f7f9fb;
+  color: #263746;
+}
+
+/* Main page content */
+
+.page {
+  background-color: #ffffff;
+}
+
+.page__inner-wrap {
+  padding: 15px 25px 35px;
+}
+
+.page__content {
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+.page__content p {
+  margin-bottom: 1.25rem;
+}
+
+/* Navigation bar */
+
+.masthead {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dce4ea;
+  box-shadow: 0 3px 14px rgba(11, 31, 58, 0.08);
+}
+
+.masthead__inner-wrap {
+  max-width: 1280px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.greedy-nav {
+  background-color: #ffffff;
+}
+
+.greedy-nav a {
+  color: #17324d;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.greedy-nav a:hover {
+  color: #176b87;
+}
+
+.greedy-nav .visible-links a::before {
+  background-color: #176b87;
+  height: 3px;
+}
+
+/* Website title in navigation */
+
+.site-title {
+  color: #0b1f3a !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.2px;
+}
+
+/* Page titles */
+
+.page__title {
+  margin-bottom: 25px;
+  color: #0b1f3a;
+  font-size: 2.25rem;
+  font-weight: 800;
+  border-bottom: 3px solid #176b87;
+  padding-bottom: 12px;
+}
+
+/* Headings */
+
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  color: #123f67;
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+.page__content h2 {
+  margin-top: 2.6rem;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #dce5ea;
+}
+
+.page__content h3 {
+  margin-top: 2rem;
+}
+
+/* Links */
+
+.page__content a {
+  color: #176b87;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.page__content a:hover {
+  color: #0b1f3a;
+  text-decoration: underline;
+}
+
+/* Horizontal separators */
+
+.page__content hr {
+  margin: 2.5rem 0;
+  border: 0;
+  border-top: 1px solid #dce5ea;
+}
+
+/* Lists */
+
+.page__content ul,
+.page__content ol {
+  margin-bottom: 1.5rem;
+}
+
+.page__content li {
+  margin-bottom: 0.45rem;
+}
+
+/* Sidebar */
+
+.sidebar {
+  padding-top: 25px;
+}
+
+.author__avatar img {
+  border-radius: 14px;
+  border: 4px solid #ffffff;
+  box-shadow: 0 8px 25px rgba(11, 31, 58, 0.16);
+}
+
+.author__name {
+  color: #0b1f3a;
+  font-weight: 800;
+}
+
+.author__bio {
+  color: #526471;
+  line-height: 1.55;
+}
+
+.author__urls-wrapper button {
+  background-color: #123f67;
+  color: #ffffff;
+  border-radius: 7px;
+}
+
+.author__urls a {
+  color: #314b5f;
+}
+
+.author__urls a:hover {
+  color: #176b87;
+}
+
+/* Buttons */
+
+.btn {
+  border-radius: 7px;
+  font-weight: 700;
+  transition: all 0.25s ease;
+}
+
+.btn--primary {
+  background-color: #176b87;
+}
+
+.btn--primary:hover {
+  background-color: #123f67;
+  transform: translateY(-2px);
+}
+
+/* Code and skill labels */
+
+.page__content code {
+  padding: 4px 8px;
+  border-radius: 5px;
+  background-color: #edf4f7;
+  color: #123f67;
+  font-size: 0.85em;
+}
+
+/* Blockquotes */
+
+.page__content blockquote {
+  margin: 2rem 0;
+  padding: 18px 22px;
+  border-left: 5px solid #176b87;
+  background-color: #f0f7f9;
+  color: #3d5362;
+}
+
+/* Footer */
+
+.page__footer {
+  background-color: #0b1f3a;
+  color: #dbe8ef;
+}
+
+.page__footer a {
+  color: #ffffff;
+}
+
+.page__footer a:hover {
+  color: #8fd3e8;
+}
+
+/* Selection color */
+
+::selection {
+  background-color: #176b87;
+  color: #ffffff;
+}
+
+/* Mobile improvements */
+
+@media screen and (max-width: 768px) {
+  .page__inner-wrap {
+    padding: 10px 16px 30px;
+  }
+
+  .page__title {
+    font-size: 1.8rem;
+  }
+
+  .page__content {
+    font-size: 0.95rem;
+  }
+
+  .masthead__inner-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
