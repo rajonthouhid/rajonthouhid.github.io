@@ -413,7 +413,11 @@ redirect_from:
 
     <div class="hero-buttons">
       <a class="hero-button primary" href="/contact/">Contact Me</a>
-      <a class="hero-button" href="/cv/">View My CV</a>
+      <a class="hero-button" href="/cv/"><a class="hero-button" href="/files/Thouhidul_Islam_Rajon_CV.pdf" target="_blank">
+
+Download CV
+
+</a></a>
     </div>
   </section>
 
